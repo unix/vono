@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>It's amazing ? <a target="_blank" href="https://github.com/WittBulter/v-decorators">Learn more decorators</a>.</p>
+    <p>It's amazing ? <a target="_blank" href="https://github.com/unix/v-decorators">Learn more decorators</a>.</p>
     <zi-button @click="send">send error request</zi-button>
   </div>
 </template>
