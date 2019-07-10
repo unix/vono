@@ -6,7 +6,7 @@
     </zi-card><br>
     <zi-card>
       <h2>
-        <router-link to="/">Home</router-link> |
+        <router-link to="/home">Home</router-link> |
         <router-link to="/about">About</router-link>
       </h2>
     <router-view/>
@@ -18,3 +18,11 @@
     </zi-card>
   </div>
 </template>
+
+<script>
+export default {
+  mounted() {
+    this.$router.push('/home')
+  },
+}
+</script>
